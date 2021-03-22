@@ -20,8 +20,7 @@ body{
     
   }
   .site-subtitle{
-    
-    font-style: italic;
+        font-style: italic;
   }
  
  .logo{
@@ -35,7 +34,6 @@ body{
     display: flex;
     flex-direction: row;
 
-
  }
  
 
@@ -45,7 +43,7 @@ body{
    
  }
 
- img#cara{
+#cara{
    display: block;
    border-radius: 50%;
    margin-left: auto;
@@ -62,28 +60,32 @@ body{
 
    
  }
- #linkedin{
+ #linksImage{
   background-color: black;
   width: 30px;
   height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+ 
 
  }
-  p{
+ #links{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  display: inline-block;
-   }
+  background-color: black;
+ }
 
-#linha{
-  font-family: monospace;
-  font-size: 12pt;
-  color: lightgray;
-  justify-content: center;
+p{
+font-family: monospace;
+font-size: 12pt;
+color: lightgray;
 }
+ 
+ 
+ 
+
 
 
 
